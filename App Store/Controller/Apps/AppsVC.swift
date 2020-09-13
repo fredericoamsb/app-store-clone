@@ -133,6 +133,12 @@ extension AppsVC {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! AppsGrupoCell
         cell.grupo = self.appsGrupos[indexPath.item]
+        cell.appsGrupoHorizontalVC.callback = {(app) in
+            let appDetalheVC = AppDetalheVC()
+            appDetalheVC.appId = app.id
+            appDetalheVC.app = app
+            self.navigationController?.pushViewController(appDetalheVC, animated: true)
+        }
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

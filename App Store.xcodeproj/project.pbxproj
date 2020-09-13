@@ -31,6 +31,11 @@
 		4AF1ECEF250D7EFE00E7FE9C /* AppsGrupoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECEE250D7EFE00E7FE9C /* AppsGrupoCell.swift */; };
 		4AF1ECF1250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF0250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift */; };
 		4AF1ECF3250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */; };
+		4AF1ECF6250DB4AD00E7FE9C /* AppDetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF5250DB4AD00E7FE9C /* AppDetalheVC.swift */; };
+		4AF1ECF9250DB84200E7FE9C /* AppDetalheHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF8250DB84200E7FE9C /* AppDetalheHeaderCell.swift */; };
+		4AF1ECFB250DC0E800E7FE9C /* AppDetalheDescricaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECFA250DC0E800E7FE9C /* AppDetalheDescricaoCell.swift */; };
+		4AF1ECFD250DC35600E7FE9C /* AppDetalheScreenshotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECFC250DC35600E7FE9C /* AppDetalheScreenshotCell.swift */; };
+		4AF1ECFF250DCEC400E7FE9C /* AppDetalheAvaliacaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECFE250DCEC400E7FE9C /* AppDetalheAvaliacaoCell.swift */; };
 		E212AB18C5A043A45EB58169 /* Pods_App_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554E8B07E63C9E02BAEF68 /* Pods_App_Store.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +87,11 @@
 		4AF1ECEE250D7EFE00E7FE9C /* AppsGrupoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoCell.swift; sourceTree = "<group>"; };
 		4AF1ECF0250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoHorizontalVC.swift; sourceTree = "<group>"; };
 		4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoHorizontalCell.swift; sourceTree = "<group>"; };
+		4AF1ECF5250DB4AD00E7FE9C /* AppDetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetalheVC.swift; sourceTree = "<group>"; };
+		4AF1ECF8250DB84200E7FE9C /* AppDetalheHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetalheHeaderCell.swift; sourceTree = "<group>"; };
+		4AF1ECFA250DC0E800E7FE9C /* AppDetalheDescricaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetalheDescricaoCell.swift; sourceTree = "<group>"; };
+		4AF1ECFC250DC35600E7FE9C /* AppDetalheScreenshotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetalheScreenshotCell.swift; sourceTree = "<group>"; };
+		4AF1ECFE250DCEC400E7FE9C /* AppDetalheAvaliacaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetalheAvaliacaoCell.swift; sourceTree = "<group>"; };
 		F18F3776F304A8958B895724 /* Pods-App Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Store.debug.xcconfig"; path = "Target Support Files/Pods-App Store/Pods-App Store.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +163,7 @@
 		4AF1ECC7250D1AFA00E7FE9C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1ECF4250DB49100E7FE9C /* AppDetalhe */,
 				4AF1ECE2250D5B0800E7FE9C /* Apps */,
 				4AF1ECCA250D2AAE00E7FE9C /* Busca */,
 				4AF1ECC8250D1B3A00E7FE9C /* BaseTabBarVC.swift */,
@@ -171,6 +182,7 @@
 		4AF1ECCD250D304100E7FE9C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1ECF7250DB82A00E7FE9C /* AppDetalhe */,
 				4AF1ECE7250D71AF00E7FE9C /* Apps */,
 				4AF1ECCE250D304B00E7FE9C /* Busca */,
 			);
@@ -233,6 +245,25 @@
 				4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */,
 			);
 			path = Apps;
+			sourceTree = "<group>";
+		};
+		4AF1ECF4250DB49100E7FE9C /* AppDetalhe */ = {
+			isa = PBXGroup;
+			children = (
+				4AF1ECF5250DB4AD00E7FE9C /* AppDetalheVC.swift */,
+			);
+			path = AppDetalhe;
+			sourceTree = "<group>";
+		};
+		4AF1ECF7250DB82A00E7FE9C /* AppDetalhe */ = {
+			isa = PBXGroup;
+			children = (
+				4AF1ECF8250DB84200E7FE9C /* AppDetalheHeaderCell.swift */,
+				4AF1ECFA250DC0E800E7FE9C /* AppDetalheDescricaoCell.swift */,
+				4AF1ECFC250DC35600E7FE9C /* AppDetalheScreenshotCell.swift */,
+				4AF1ECFE250DCEC400E7FE9C /* AppDetalheAvaliacaoCell.swift */,
+			);
+			path = AppDetalhe;
 			sourceTree = "<group>";
 		};
 		702EA0E1AE89D2256256AD5B /* Frameworks */ = {
@@ -432,22 +463,27 @@
 				4AF1ECD0250D306C00E7FE9C /* BuscaCell.swift in Sources */,
 				4AF1EC9C250D1AB300E7FE9C /* ViewController.swift in Sources */,
 				4AF1ECE4250D5B1800E7FE9C /* AppsVC.swift in Sources */,
+				4AF1ECFF250DCEC400E7FE9C /* AppDetalheAvaliacaoCell.swift in Sources */,
 				4AF1ECCC250D2AC700E7FE9C /* BuscaVC.swift in Sources */,
+				4AF1ECF9250DB84200E7FE9C /* AppDetalheHeaderCell.swift in Sources */,
 				4AF1ECEB250D73BE00E7FE9C /* AppsService.swift in Sources */,
 				4AF1ECD7250D36A100E7FE9C /* UILabel.swift in Sources */,
 				4AF1ECD9250D3B8B00E7FE9C /* UIButton.swift in Sources */,
 				4AF1ECD3250D312700E7FE9C /* UIView.swift in Sources */,
 				4AF1ECDB250D3BEB00E7FE9C /* UIColor.swift in Sources */,
 				4AF1ECDE250D49B100E7FE9C /* BuscaService.swift in Sources */,
+				4AF1ECFB250DC0E800E7FE9C /* AppDetalheDescricaoCell.swift in Sources */,
 				4AF1ECC9250D1B3A00E7FE9C /* BaseTabBarVC.swift in Sources */,
 				4AF1ECF3250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift in Sources */,
 				4AF1ECEF250D7EFE00E7FE9C /* AppsGrupoCell.swift in Sources */,
 				4AF1ECED250D7DD000E7FE9C /* SnappingLayout.swift in Sources */,
 				4AF1ECE9250D71C200E7FE9C /* AppsHeaderCell.swift in Sources */,
 				4AF1ECE6250D6DBB00E7FE9C /* AppsHeaderVC.swift in Sources */,
+				4AF1ECF6250DB4AD00E7FE9C /* AppDetalheVC.swift in Sources */,
 				4AF1EC98250D1AB300E7FE9C /* AppDelegate.swift in Sources */,
 				4AF1ECF1250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift in Sources */,
 				4AF1EC9A250D1AB300E7FE9C /* SceneDelegate.swift in Sources */,
+				4AF1ECFD250DC35600E7FE9C /* AppDetalheScreenshotCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
