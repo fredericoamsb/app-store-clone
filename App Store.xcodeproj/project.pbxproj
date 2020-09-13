@@ -23,6 +23,14 @@
 		4AF1ECDB250D3BEB00E7FE9C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECDA250D3BEB00E7FE9C /* UIColor.swift */; };
 		4AF1ECDE250D49B100E7FE9C /* BuscaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECDD250D49B100E7FE9C /* BuscaService.swift */; };
 		4AF1ECE1250D509500E7FE9C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECE0250D509500E7FE9C /* App.swift */; };
+		4AF1ECE4250D5B1800E7FE9C /* AppsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECE3250D5B1800E7FE9C /* AppsVC.swift */; };
+		4AF1ECE6250D6DBB00E7FE9C /* AppsHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECE5250D6DBB00E7FE9C /* AppsHeaderVC.swift */; };
+		4AF1ECE9250D71C200E7FE9C /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECE8250D71C200E7FE9C /* AppsHeaderCell.swift */; };
+		4AF1ECEB250D73BE00E7FE9C /* AppsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECEA250D73BE00E7FE9C /* AppsService.swift */; };
+		4AF1ECED250D7DD000E7FE9C /* SnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECEC250D7DD000E7FE9C /* SnappingLayout.swift */; };
+		4AF1ECEF250D7EFE00E7FE9C /* AppsGrupoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECEE250D7EFE00E7FE9C /* AppsGrupoCell.swift */; };
+		4AF1ECF1250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF0250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift */; };
+		4AF1ECF3250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */; };
 		E212AB18C5A043A45EB58169 /* Pods_App_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33554E8B07E63C9E02BAEF68 /* Pods_App_Store.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +74,14 @@
 		4AF1ECDA250D3BEB00E7FE9C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		4AF1ECDD250D49B100E7FE9C /* BuscaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaService.swift; sourceTree = "<group>"; };
 		4AF1ECE0250D509500E7FE9C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4AF1ECE3250D5B1800E7FE9C /* AppsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsVC.swift; sourceTree = "<group>"; };
+		4AF1ECE5250D6DBB00E7FE9C /* AppsHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderVC.swift; sourceTree = "<group>"; };
+		4AF1ECE8250D71C200E7FE9C /* AppsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
+		4AF1ECEA250D73BE00E7FE9C /* AppsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsService.swift; sourceTree = "<group>"; };
+		4AF1ECEC250D7DD000E7FE9C /* SnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingLayout.swift; sourceTree = "<group>"; };
+		4AF1ECEE250D7EFE00E7FE9C /* AppsGrupoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoCell.swift; sourceTree = "<group>"; };
+		4AF1ECF0250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoHorizontalVC.swift; sourceTree = "<group>"; };
+		4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsGrupoHorizontalCell.swift; sourceTree = "<group>"; };
 		F18F3776F304A8958B895724 /* Pods-App Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Store.debug.xcconfig"; path = "Target Support Files/Pods-App Store/Pods-App Store.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +153,7 @@
 		4AF1ECC7250D1AFA00E7FE9C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1ECE2250D5B0800E7FE9C /* Apps */,
 				4AF1ECCA250D2AAE00E7FE9C /* Busca */,
 				4AF1ECC8250D1B3A00E7FE9C /* BaseTabBarVC.swift */,
 			);
@@ -154,6 +171,7 @@
 		4AF1ECCD250D304100E7FE9C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1ECE7250D71AF00E7FE9C /* Apps */,
 				4AF1ECCE250D304B00E7FE9C /* Busca */,
 			);
 			path = View;
@@ -170,6 +188,7 @@
 		4AF1ECD1250D30FA00E7FE9C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				4AF1ECEC250D7DD000E7FE9C /* SnappingLayout.swift */,
 				4AF1ECD2250D312700E7FE9C /* UIView.swift */,
 				4AF1ECD4250D319100E7FE9C /* UIImageView.swift */,
 				4AF1ECD6250D36A100E7FE9C /* UILabel.swift */,
@@ -183,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				4AF1ECDD250D49B100E7FE9C /* BuscaService.swift */,
+				4AF1ECEA250D73BE00E7FE9C /* AppsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -193,6 +213,26 @@
 				4AF1ECE0250D509500E7FE9C /* App.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4AF1ECE2250D5B0800E7FE9C /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				4AF1ECE3250D5B1800E7FE9C /* AppsVC.swift */,
+				4AF1ECE5250D6DBB00E7FE9C /* AppsHeaderVC.swift */,
+				4AF1ECF0250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		4AF1ECE7250D71AF00E7FE9C /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				4AF1ECE8250D71C200E7FE9C /* AppsHeaderCell.swift */,
+				4AF1ECEE250D7EFE00E7FE9C /* AppsGrupoCell.swift */,
+				4AF1ECF2250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift */,
+			);
+			path = Apps;
 			sourceTree = "<group>";
 		};
 		702EA0E1AE89D2256256AD5B /* Frameworks */ = {
@@ -391,14 +431,22 @@
 				4AF1ECD5250D319100E7FE9C /* UIImageView.swift in Sources */,
 				4AF1ECD0250D306C00E7FE9C /* BuscaCell.swift in Sources */,
 				4AF1EC9C250D1AB300E7FE9C /* ViewController.swift in Sources */,
+				4AF1ECE4250D5B1800E7FE9C /* AppsVC.swift in Sources */,
 				4AF1ECCC250D2AC700E7FE9C /* BuscaVC.swift in Sources */,
+				4AF1ECEB250D73BE00E7FE9C /* AppsService.swift in Sources */,
 				4AF1ECD7250D36A100E7FE9C /* UILabel.swift in Sources */,
 				4AF1ECD9250D3B8B00E7FE9C /* UIButton.swift in Sources */,
 				4AF1ECD3250D312700E7FE9C /* UIView.swift in Sources */,
 				4AF1ECDB250D3BEB00E7FE9C /* UIColor.swift in Sources */,
 				4AF1ECDE250D49B100E7FE9C /* BuscaService.swift in Sources */,
 				4AF1ECC9250D1B3A00E7FE9C /* BaseTabBarVC.swift in Sources */,
+				4AF1ECF3250D80FA00E7FE9C /* AppsGrupoHorizontalCell.swift in Sources */,
+				4AF1ECEF250D7EFE00E7FE9C /* AppsGrupoCell.swift in Sources */,
+				4AF1ECED250D7DD000E7FE9C /* SnappingLayout.swift in Sources */,
+				4AF1ECE9250D71C200E7FE9C /* AppsHeaderCell.swift in Sources */,
+				4AF1ECE6250D6DBB00E7FE9C /* AppsHeaderVC.swift in Sources */,
 				4AF1EC98250D1AB300E7FE9C /* AppDelegate.swift in Sources */,
+				4AF1ECF1250D80EA00E7FE9C /* AppsGrupoHorizontalVC.swift in Sources */,
 				4AF1EC9A250D1AB300E7FE9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

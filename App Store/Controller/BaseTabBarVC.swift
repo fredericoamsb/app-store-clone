@@ -13,7 +13,7 @@ class BaseTabBarVC: UITabBarController {
         super.viewDidLoad();
         
         let hojeVC = self.criarTabItem(viewController: UIViewController(), titulo: "Hoje", imagem: "icone-hoje")
-        let appsVC = self.criarTabItem(viewController: UIViewController(), titulo: "Apps", imagem: "icone-apps")
+        let appsVC = self.criarTabItem(viewController: AppsVC(), titulo: "Apps", imagem: "icone-apps")
         let buscaVC = self.criarTabItem(viewController: BuscaVC(), titulo: "Busca", imagem: "icone-busca")
         
         viewControllers = [
@@ -22,7 +22,7 @@ class BaseTabBarVC: UITabBarController {
             buscaVC
         ]
         
-        selectedIndex = 2
+        selectedIndex = 1
     }
     
     func criarTabItem (viewController: UIViewController, titulo: String, imagem: String) -> UIViewController {

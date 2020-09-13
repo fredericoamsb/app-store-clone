@@ -18,6 +18,7 @@ extension UIImageView {
         imagem.layer.borderWidth = 0.5
         imagem.layer.borderColor = UIColor(white: 0.5, alpha: 0.5).cgColor
         imagem.layer.cornerRadius = 12
+        imagem.clipsToBounds = true
         
         return imagem
     }
@@ -30,6 +31,7 @@ extension UIImageView {
         imagem.layer.borderWidth = 0.5
         imagem.layer.borderColor = UIColor(white: 0.5, alpha: 0.5).cgColor
         imagem.contentMode = .scaleAspectFill
+        imagem.clipsToBounds = true
         
         return imagem
     }
